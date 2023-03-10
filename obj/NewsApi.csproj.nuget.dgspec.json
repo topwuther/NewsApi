@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/topwuther/projects/vscode/asp.net/NewsApi/NewsApi.csproj": {}
+  },
+  "projects": {
+    "/home/topwuther/projects/vscode/asp.net/NewsApi/NewsApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/topwuther/projects/vscode/asp.net/NewsApi/NewsApi.csproj",
+        "projectName": "NewsApi",
+        "projectPath": "/home/topwuther/projects/vscode/asp.net/NewsApi/NewsApi.csproj",
+        "packagesPath": "/home/topwuther/.nuget/packages/",
+        "outputPath": "/home/topwuther/projects/vscode/asp.net/NewsApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/topwuther/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3-beta1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.3, 7.0.3]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
